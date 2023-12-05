@@ -4,7 +4,7 @@
 
 El objetivo de este documento es crear un draft sobre los pasos que debe seguir toda persona con 0 o poco conocimiento sobre el desarrollo web para lograr alcanzar en poco tiempo los objetivos siguientes
 
-### Objetivos
+## Objetivos
 
 Conocimiento intermedio de HTML
 Conocimiento intermedio de CSS
@@ -13,7 +13,7 @@ Conocimiento sobre la herramienta de diseño FIGMA
 Conocimiento intermedio sobre libreria TailwindCSS o similar.
 Conocimiento básico sobre Libreria ReactJS
 
-### Contenido
+## Contenido
 
 El contenido se tendrá que revisar en el mismo orden en que salga en este documento. Se debe garantizar tener los conocimientos técnicos antes de empezar a realizar tareas de codificación.
 HTML Básico
