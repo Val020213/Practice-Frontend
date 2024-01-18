@@ -52,7 +52,6 @@ Capítulos que se debe leer 2 o más veces
 <https://www.udemy.com/course/crea-una-pagina-web/>
 
 <https://www.udemy.com/course/cursoflexbox>
-
 <https://www.udemy.com/course/figma-diseno-de-prototipos-desde-cero/>
 
 [GIT - Conocimientos Básicos](<https://git-scm.com/book/en/v2>)

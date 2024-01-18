@@ -1,0 +1,45 @@
+@use './base'
+
+.card
+    @extend %flex-column
+    box-shadow: 0.125rem 0.5rem 1.25rem 0.125rem rgba(0, 0, 0, 0.2)
+    width: 18.75rem
+    gap: 0.5rem
+
+    border: 0.0625rem solid var(--border-color)
+    border-radius: 0.25rem
+    margin-bottom: 1rem
+    &:hover
+        animation: grow 0.2s ease-in-out
+        animation: pulsate 3s infinite ease-in-out
+
+.card__body
+    @extend %flex-column-left
+    padding: 1rem
+    width: auto
+
+.card__title
+    @extend %title
+    margin-bottom: 1rem
+
+.card__image
+    width: 100%
+
+.card__description
+    @extend %text
+
+.card__footer
+    @extend %flex-row-separated
+    width: 100%
+
+.card__price
+    @extend %font
+    font-weight: bold
+
+.card__button
+    @extend %button-rounded
+    @extend %font
+    background-color: var(--white-color)
+
+.card__button-icon
+    @extend %button-only-icon

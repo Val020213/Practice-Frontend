@@ -1,0 +1,53 @@
+.hidden {
+  display: none;
+}
+
+svg, .icon-button, .icon {
+  display: flex;
+}
+
+svg, .icon-button, .icon {
+  flex-direction: row;
+}
+
+svg, .icon-button, .icon {
+  justify-content: center;
+  align-items: center;
+}
+
+svg, .icon-button, .icon {
+  width: 1.5rem;
+  height: 1.5rems;
+  padding: 0;
+}
+
+.icon-button {
+  cursor: pointer;
+}
+
+svg {
+  border: none;
+}
+svg path {
+  stroke: var(--text-color);
+}
+
+@keyframes pulsate {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 1rem 0.3rem var(--primary-color);
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=base.css.map */

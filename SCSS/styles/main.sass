@@ -1,0 +1,15 @@
+@use 'sass:math'
+@use './base'
+@use './card'
+@import url('./theme.css')
+
+body
+    @extend %font
+    color: var(--text-color)
+    background-color: var(--background-color)
+
+.products
+    @extend %flex-multiline
+    gap: 1rem
+    padding: 1rem
+

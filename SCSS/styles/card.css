@@ -1,0 +1,140 @@
+.card__price, .card__button, .card__title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font: 1rem/1.5;
+  margin: 0;
+}
+
+.card__description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.card__footer, .card__button-icon, .card__button, svg, .icon-button, .icon, .card, .card__body {
+  display: flex;
+}
+
+.card, .card__body {
+  flex-direction: column;
+}
+
+.card__body {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card__footer, .card__button-icon, .card__button, svg, .icon-button, .icon {
+  flex-direction: row;
+}
+
+.card__button-icon, .card__button, svg, .icon-button, .icon {
+  justify-content: center;
+  align-items: center;
+}
+
+.card__footer {
+  justify-content: space-between;
+  align-items: center;
+}
+
+svg, .icon-button, .icon {
+  width: 1.5rem;
+  height: 1.5rems;
+  padding: 0;
+}
+
+.icon-button {
+  cursor: pointer;
+}
+
+svg {
+  border: none;
+}
+svg path {
+  stroke: var(--text-color);
+}
+
+.card__button-icon, .card__button {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.125rem;
+}
+.card__button-icon:hover, .card__button:hover {
+  animation: pulsate 0.5s infinite ease-in-out;
+}
+
+.card__button {
+  border-radius: 50%;
+}
+
+.card__button-icon {
+  padding: 0.125rem;
+}
+
+@keyframes pulsate {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 1rem 0.3rem var(--primary-color);
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.card {
+  box-shadow: 0.125rem 0.5rem 1.25rem 0.125rem rgba(0, 0, 0, 0.2);
+  width: 18.75rem;
+  gap: 0.5rem;
+  border: 0.0625rem solid var(--border-color);
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+.card:hover {
+  animation: grow 0.2s ease-in-out;
+  animation: pulsate 3s infinite ease-in-out;
+}
+
+.card__body {
+  padding: 1rem;
+  width: auto;
+}
+
+.card__title {
+  margin-bottom: 1rem;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__footer {
+  width: 100%;
+}
+
+.card__price {
+  font-weight: bold;
+}
+
+.card__button {
+  background-color: var(--white-color);
+}/*# sourceMappingURL=card.css.map */
